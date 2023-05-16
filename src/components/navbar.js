@@ -11,7 +11,7 @@ export default function Navbar({ siteTitle }) {
         </Link>
         <Link className="navbar-link" to="/">Home</Link>
         <Link className="navbar-link" to="/page-2/">Page 2</Link>
-        <Link className="navbar-link" to="/using-ssr/">Go to using Typescript</Link>
+        <Link className="navbar-link" to="/using-typescript/">Go to using Typescript</Link>
       </nav >
       <img
         alt="Gatsby logo"
