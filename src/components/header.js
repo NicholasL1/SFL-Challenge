@@ -1,8 +1,9 @@
 import * as React from "react"
 import Navbar from "./navbar"
+import "../styles/header.css"
 
 const Header = ({ siteTitle }) => (
-  <header>
+  <header className="header">
     <Navbar siteTitle={siteTitle} />
   </header>
 )
