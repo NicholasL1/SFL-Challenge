@@ -1,0 +1,28 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: var(--space-4) var(--size-gutter);
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.site-title {
+  font-size: var(--font-sm);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-link {
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: white;
+}
